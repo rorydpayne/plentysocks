@@ -1,0 +1,100 @@
+.products {
+	text-align: center;
+	h3 {
+		font-size: 3em;
+        font-weight: 400;
+        line-height: 1.5em;
+        margin-bottom: 2em;
+        color: #0A4D6D;
+	}
+	.content {
+
+	}
+	.product {
+		text-align: center;
+		h5 {
+			font-size: 1.6em;
+			color: #0A4D6D;
+			line-height: 1.9em;
+			font-weight: 200;
+		}
+		&:hover {
+			border: 1px solid #999999;
+		}
+		&.active {
+			border: 1px solid #999999;
+		}
+	}
+	.details {
+		background-color: #DBDBDB;
+		padding: 15px;
+		.pic {
+			background-color: #FFFFFF;
+			img {
+
+			}
+		}
+		.text {
+			text-align: left;
+			padding-top: 0;
+		}
+		h4 {
+			color: #0A4D6D;
+			font-size: 2em;
+			font-weight: 400;
+			margin-top: 0;
+			margin-bottom: -6px;
+		}
+		h6 {
+			font-size: 1.2em;
+			font-weight: 700;
+			color: #0A4D6D;
+			margin-bottom: -6px;
+			&.quantity {
+				margin-bottom: 16px;
+			}
+		}
+		p {
+			color: #868485;
+			font-size: 1.2em;
+		}
+		span.quantity {
+			display: block;
+			height: 40px;
+			min-width: 40px;
+			float: left;
+			color: #0A4D6D;
+			font-size: 3.4em;
+			font-weight: 700;
+			text-align: center;
+			bottom: 0;
+			margin-right: 5px;
+		}
+		a {
+			display: block;
+			height: 40px;
+			width: 40px;
+			float: left;
+			color: #0A4D6D;
+			&.add {
+			 	margin-right: 5px;
+			 	background-color: #FFFFFF;
+				opacity: 0.5;
+				&:hover {
+					opacity: 1;
+				}
+			}
+			&.sub {
+				margin-right: 5px;
+				background-color: #FFFFFF;
+				opacity: 0.5;
+				&:hover {
+					opacity: 1;
+				}
+			}
+			&.cart {
+
+			}
+		}
+	}
+}

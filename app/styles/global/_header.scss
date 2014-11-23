@@ -46,6 +46,7 @@
                 height: 36px;
                 padding-left: 15px;
                 padding-right: 15px;
+                text-decoration: none;
             }
         }
     }
@@ -67,6 +68,16 @@
     .navbar {
     	.right-btns {
     		margin-top: 12px;
+            a {
+                text-decoration: none;
+                color: #868485;
+                &:hover {
+                    color: #545454;
+                }
+                &.active {
+                    color: #545454;
+                }
+            }
     	}
     }
 }

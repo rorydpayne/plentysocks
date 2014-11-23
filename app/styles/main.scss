@@ -1,9 +1,8 @@
-//$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
-// bower:scss
-//@import "bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
-// endbower
+@import "fonts";
+
 html {
   font-size: 62.5%;
+  font-family: raleway, sans-serif;
 }
 
 a:hover {
@@ -22,6 +21,8 @@ a:hover {
  .container {
     .row {
        @import "pages/home";
+       @import "pages/products";
+
     }
  }
  

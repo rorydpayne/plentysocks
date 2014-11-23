@@ -1,0 +1,30 @@
+<div class="col-dt-10 col-dt-offset-1 col-tb-12 products">
+	<h3>PRODUCTS</h3>
+	<div class="row content">
+		<div class="col-dt-3 product" data-ng-repeat="product in products">
+			<img src="{{product.imgUrl}}">
+			<h5>{{product.name}}</h5>
+		</div>
+	</div>
+	<div class="row details">
+		<div class="col-dt-12">
+			<div class="col-dt-3 pic"><img src="{{activeProduct.imgUrl}}" alt=""></div>
+			<div class="col-dt-9 text">
+				<h4>{{activeProduct.name}}</h4>
+				<p>{{activeProduct.sku}}</p>
+
+				<h6>DETAILS</h6>
+				<p>{{activeProduct.details}}</p>
+				
+				<h6>COMPOSITION</h6>
+				<p>{{activeProduct.composition}}</p>
+
+				<h6 class="quantity">QUANTITY</h6>
+				<span class="quantity">{{activeProduct.quantity}}</span>
+				<a class="add" ng-click=""></a>
+				<a class="sub" ng-click=""></a>
+				<a class="btn cart" ng-click="">ADD TO CART</a>
+			</div>
+		</div>
+	</div>
+</div>

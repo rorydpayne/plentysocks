@@ -1,4 +1,4 @@
-<div class="row" id="header-tab">
+<div class="row" id="header-tab" data-ng-controller="HeaderCtrl">
 	<div class="col-dt-10 col-tb-12 col-dt-offset-1">
 		<div class="left-btns">
 			<a data-ng-click="">MY SUBSCRIPTION</a>
@@ -25,7 +25,7 @@
 	<div class="right-btns" ng-show="true">
 		<ul>
 			<li>
-				<a data-ng-click="">PRODUCTS</a>
+				<a data-ng-href="/products" data-ng-class="{active: currentPath == '/products'}">PRODUCTS</a>
 			</li>
 			<li>
 				<a data-ng-click="">PLANS</a>
