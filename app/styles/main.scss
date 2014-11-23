@@ -1,0 +1,29 @@
+//$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+//@import "bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
+// endbower
+html {
+  font-size: 62.5%;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.view {
+  margin-top: 100px;
+}
+
+ @import "grid";
+ @import "modals";
+ @import "global/header";
+ @import "global/footer";
+
+ .container {
+    .row {
+       @import "pages/home";
+    }
+ }
+ 
+
+
