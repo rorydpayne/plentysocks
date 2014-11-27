@@ -1,13 +1,5 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name plentysocksApp
- * @description
- * # plentysocksApp
- *
- * Main module of the application.
- */
 angular
   .module('plentysocksApp', [
     'ngAnimate',
@@ -31,6 +23,10 @@ angular
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
+      })
+      .when('/plans', {
+        templateUrl: 'views/plans.html',
+        controller: 'PlansCtrl'
       })
       .otherwise({
         redirectTo: '/'

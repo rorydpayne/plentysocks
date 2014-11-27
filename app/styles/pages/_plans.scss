@@ -1,0 +1,58 @@
+#plans {
+	.panelOne {
+		color: #FFFFFF;
+		height: 284px;
+		font-family: raleway, sans-serif;
+		background-image: url("../images/plans_bg.jpg");
+		background-size: cover;
+		background-position: 0 52%;
+		.content {
+			h2 {
+				font-size: 4.8em;
+				font-weight: 800;
+				line-height: 1em;
+				margin-top: 67px;
+				margin-left: 67px;
+				margin-bottom: 34px;
+			}
+			h4 {
+				font-size: 2.4em;
+				font-weight: 400;
+				margin-left: 67px;
+				margin-top: 0;
+				line-height: 1em;
+			}
+		}
+	}
+	.heading {
+		text-align: center;
+		color: #0A4D6D;
+	}
+	.priceCircle {
+		background-color: #0A4D6D;
+		color: #FFFFFF;
+		border-radius: 50%;
+		height: 360px;
+		width: 360px;
+		padding-top: 68px;
+		text-align: center;
+		float: right;
+		p {
+			font-size: 2em;
+			margin: 0;
+		}
+		h1 {
+			font-size: 16em;
+			margin: 0;
+			font-weight: 400;
+		}
+	}
+	ul {
+		li {
+			p {
+				color: #868485;
+				font-size: 2.2em;
+			}
+		}
+	}
+}
