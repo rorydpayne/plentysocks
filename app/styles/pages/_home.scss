@@ -139,6 +139,7 @@ $rootContext: 62.5;
                 height: 350px;
                 max-width: 350px;
                 background: url("../images/walk.jpg");
+                margin: 0 auto;
                 &:hover {
                     border: 2px solid #0A4D6D;
                 }
@@ -154,6 +155,7 @@ $rootContext: 62.5;
                 max-width: 350px;
                 background: url("../images/thread.jpg");
                 background-size: auto 350px;
+                margin: 0 auto;
                 &:hover {
                     border: 2px solid #0A4D6D;
                 }
@@ -171,6 +173,7 @@ $rootContext: 62.5;
                 height: 350px;
                 max-width: 350px;
                 background: url("../images/parcel.jpg") -58px 0;
+                margin: 0 auto;
                 &:hover {
                     border: 2px solid #0A4D6D;
                 }
