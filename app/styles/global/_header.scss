@@ -6,7 +6,7 @@
     top: 0;
     font-family: raleway, sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1em;
     color: #868485;
     z-index: 1;
     border-bottom: 1px solid #DBDBDB;
@@ -19,6 +19,9 @@
         font-size: 1.2rem;
         a:hover {
             background-color: #538298;
+        }
+         @media only screen and (max-width: 420px) {
+            font-size: 1em;
         }
     }
     .left-btns {
@@ -80,6 +83,75 @@
                     font-weight: 500;
                 }
             }
+            @media only screen and (max-width: 630px) {
+                display: none;
+            }
     	}
+        .right-menu-btn {
+            float: right;
+            margin-top: 18px;
+            a.burgerButton {
+                span.burgerIcon {
+                    width: 30px;
+                    height: 30px;
+                    display: block;
+                    background: url('../images/icons/bars_dark.png');
+                    background-size: 100%;
+                }
+                &:hover {
+                    span.burgerIcon {
+                        background: url('../images/icons/bars_light.png');
+                        background-size: 100%;
+                    }
+                }
+            }
+            @media only screen and (min-width: 630px) {
+                display: none;
+            }
+        }
+        .dropdown {
+            clear: left;
+            float: right;
+            margin-right: -15px;
+            ul {
+                li {
+                    float: right;
+                    clear: right;
+                    background: #FFFFFF;
+                    display: block;
+                    border: 1px solid #DBDBDB;
+                    border-top: none;
+                    width: 130px;
+                    height: 45px;
+                    text-align: center;
+                    font-size: 1.2em;
+                    padding-top: 5px;
+                    a {
+                        text-decoration: none;
+                        color: #868485;
+                        &:hover {
+                            color: #545454;
+                        }
+                        &.active {
+                            color: #545454;
+                        }
+                    }
+                    .top {
+                        border-top: 1px solid #DBDBDB;
+                        }
+                    &:hover {
+                        background: #E6ECF0;
+                    }
+                    &.selected {
+                        background: #E6ECF0;
+                        color: #545454;
+                        font-weight: 500;
+                    }
+                }
+            }
+            @media only screen and (min-width: 630px) {
+                display: none;
+            }
+        }
     }
 }

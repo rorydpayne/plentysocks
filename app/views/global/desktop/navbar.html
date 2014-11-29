@@ -38,20 +38,27 @@
 			</li>
 		</ul>
 	</div>
-	<!-- <a class="right-btns" ng-show="false">
+	<div class="right-menu-btn">
+		<a class="burgerButton" data-ng-click="dropdown = !dropdown"><span class="burgerIcon"></span></a>
+	</div>
+	<div class="dropdown" ng-show="dropdown">
 		<ul>
-			<li>
-				<a data-ng-click="">PRODUCTS</a>
+			<li class="top" data-ng-class="{selected: currentPath == '/products'}">
+				<a data-ng-href="/products"
+				data-ng-click="dropdown = !dropdown">PRODUCTS</a>
+			</li>
+			<li data-ng-class="{selected: currentPath == '/plans'}">
+				<a data-ng-href="/plans"
+				data-ng-click="dropdown = !dropdown">PLANS</a>
 			</li>
 			<li>
-				<a data-ng-click="">PLANS</a>
+				<a data-ng-href="#"
+				data-ng-click="dropdown = !dropdown">ABOUT US</a>
 			</li>
 			<li>
-				<a data-ng-click="">ABOUT US</a>
-			</li>
-			<li>
-				<a data-ng-click="">HELP</a>
+				<a data-ng-href="#"
+				data-ng-click="dropdown = !dropdown">HELP</a>
 			</li>
 		</ul>
-	</a> -->
+	</div>
 </div>

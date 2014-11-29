@@ -25,14 +25,17 @@ $rootContext: 62.5;
         h1 {
             font-size: 10em;
             font-weight: 800;
-            line-height: 0;
-            margin-bottom: 1em;
+            line-height: 1em;
+            margin-bottom: 0;
+            @media only screen and (max-width: 450px) {
+                margin-top: 10px;
+            }
         }
         h2 {
-            line-height: 0;
+            line-height: 1em;
             font-size: 5em;
             font-weight: 400;
-            margin-bottom: 1.5em;
+            margin-bottom: 0.5em;
         }
         a.btn.subscribe {
             display: block;
@@ -48,6 +51,9 @@ $rootContext: 62.5;
             &:hover {
                 background: #0A4D6D;
                 background: rgba(10, 77, 109, 0.7);
+            }
+            @media only screen and (max-width: 450px) {
+                width: 100%
             }
         }
         .bottom {
@@ -143,10 +149,14 @@ $rootContext: 62.5;
                 &:hover {
                     border: 2px solid #0A4D6D;
                 }
-                @media screen and (max-width: 900px) {
+                @media screen 
+                and (max-width: 900px)
+                and (min-width: 450px) {
                     width: 100%;
                     max-width: none;
                     background-size: 100% auto;
+                    background-position: 0 57%;
+                    background-repeat: no-repeat;
                     height: 250px;
                 }
             }
@@ -166,7 +176,8 @@ $rootContext: 62.5;
                     height: 250px;
                 }
                 @media screen and (max-width: 473px) {
-                    background-size: 446px auto;
+                    background-size: 650px auto;
+                    height: 350px
                 }
             }
             .parcel {
@@ -177,7 +188,9 @@ $rootContext: 62.5;
                 &:hover {
                     border: 2px solid #0A4D6D;
                 }
-                @media screen and (max-width: 900px) {
+                @media screen
+                and (max-width: 900px) 
+                and (min-width: 450px) {
                     background: url("../images/parcel.jpg") 0 0;
                     width: 100%;
                     max-width: none;
