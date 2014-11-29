@@ -28,24 +28,10 @@
 		text-align: center;
 		color: #0A4D6D;
 	}
-	.priceCircle {
-		background-color: #0A4D6D;
-		color: #FFFFFF;
-		border-radius: 50%;
-		height: 360px;
-		width: 360px;
-		padding-top: 68px;
-		text-align: center;
+	img {
 		float: right;
-		p {
-			font-size: 2em;
-			margin: 0;
-		}
-		h1 {
-			font-size: 16em;
-			margin: 0;
-			font-weight: 400;
-		}
+		max-width: 382px;
+		width: 80%;
 	}
 	ul {
 		li {
@@ -53,6 +39,90 @@
 				color: #868485;
 				font-size: 2.2em;
 			}
+		}
+	}
+	.panelThree {
+		background: #E6ECF0;
+		padding-bottom: 30px;
+		table {
+			width: 100%;
+			text-align: center;
+			border-collapse: collapse;
+		}
+		p {
+			font-size: 1.4em;
+			color: #868485;
+		}
+		h4 {
+			font-weight: 400;
+			font-size: 2em;
+			color: #0A4D6D;
+		}
+		h2 {
+			font-size: 3.5em;
+			font-weight: 400;
+			color: #FFFFFF;
+		}
+		thead {
+			tr {
+				th {
+					width: 25%;
+					height: 140px;
+					border-left: 15px solid #E6ECF0;
+					border-right: 15px solid #E6ECF0;
+					&.colOne {
+						background: #EDC89C;		
+					}
+					&.colTwo {
+						background: #8EABBB;	
+					}
+					&.colThree {
+						background: #4C7C95;	
+					}
+					&.colFour {
+						background: #0A4D6D;	
+					}
+				}
+			}
+		}
+		tr {
+			td {
+				background: #FFFFFF;
+				margin-bottom: 0;
+				margin-top: 0;
+				width: 25%;
+				border-left: 15px solid #E6ECF0;
+				border-right: 15px solid #E6ECF0;
+				&.colOne {
+					text-align: left;
+					padding-left: 15px;
+				}
+			}
+			span.tick {
+				width: 33px;
+				height: 33px;
+				background: url('../images/icons/check.png');
+				background-size: 100%;
+				display: block;
+				margin: 0 auto;
+			}
+		}
+		a.btn.subscribe.orange {
+			display: block;
+            margin: 0 auto;
+            margin-top: 7%;
+            width: 80%;
+            padding-top: 4%;
+            padding-bottom: 4%;
+            background-color: #F7931E;
+            border: 2px solid #FFFFFF;
+            font-size: 1.4em;
+            font-weight: 400;
+            text-align: center;
+            color: #FFFFFF;
+            &:hover {
+            	background: rgba(247, 147, 30, 0.6);
+;            }
 		}
 	}
 }
