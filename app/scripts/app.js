@@ -14,15 +14,11 @@ angular
     $routeProvider
       .when('/', {
         templateUrl: 'views/home.html',
-        controller: 'MainCtrl'
+        controller: 'HomeCtrl'
       })
       .when('/products', {
         templateUrl: 'views/products.html',
         controller: 'ProductsCtrl'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
       })
       .when('/plans', {
         templateUrl: 'views/plans.html',
