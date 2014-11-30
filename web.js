@@ -1,7 +1,6 @@
 var gzippo = require('gzippo');
 var express = require('express');
 var modRewrite = require('connect-modrewrite');
-var serveStatic = require('serve-static');
 
 var app = express();
  
