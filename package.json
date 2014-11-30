@@ -1,7 +1,11 @@
 {
   "name": "plentysocks",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.10.4",
+    "gzippo": "^0.2.0",
+    "jpegtran-bin": "^2.0.1"
+  },
   "devDependencies": {
     "connect-modrewrite": "^0.7.9",
     "grunt": "^0.4.5",
