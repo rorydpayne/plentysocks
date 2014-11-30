@@ -1,6 +1,6 @@
 var gzippo = require('gzippo');
 var express = require('express');
-var bodyParser = require('body-parser');
+//var bodyParser = require('body-parser');
 var compression = require('compression');
 var timeout = require('connect-timeout');
 var cookieParser = require('cookie-parser');
