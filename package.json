@@ -4,7 +4,8 @@
   "dependencies": {
     "express": "^4.10.4",
     "gzippo": "^0.2.0",
-    "jpegtran-bin": "^2.0.1"
+    "jpegtran-bin": "^2.0.1",
+    "connect-modrewrite": "^0.7.9"
   },
   "devDependencies": {
     "connect-modrewrite": "^0.7.9",
