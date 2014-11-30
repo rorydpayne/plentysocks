@@ -6,7 +6,7 @@ angular.module('plentysocksApp').controller('ProductsCtrl', ['$scope',
 			{
 				id: 1,
 				name: "Product Name 1",
-				imgUrl: "../images/sock.jpg",
+				imgUrl: "../../images/sock.jpg",
 				sku: "in stock",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure optio, labore! Beatae commodi eaque deleniti, repudiandae itaque sint esse dolor tempora, iste eligendi harum, recusandae ratione aut assumenda animi corporis.",
 				composition: "80% Combed Cotton, 17% Polyamide, 3% Elastane"
@@ -14,7 +14,7 @@ angular.module('plentysocksApp').controller('ProductsCtrl', ['$scope',
 			{
 				id: 2,
 				name: "Product Name 2",
-				imgUrl: "../images/sock.jpg",
+				imgUrl: "../../images/sock.jpg",
 				sku: "in stock",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure optio, labore! Beatae commodi eaque deleniti, repudiandae itaque sint esse dolor tempora, iste eligendi harum, recusandae ratione aut assumenda animi corporis.",
 				composition: "80% Combed Cotton, 17% Polyamide, 3% Elastane"
@@ -22,7 +22,7 @@ angular.module('plentysocksApp').controller('ProductsCtrl', ['$scope',
 			{
 				id: 3,
 				name: "Product Name 3",
-				imgUrl: "../images/sock.jpg",
+				imgUrl: "../../images/sock.jpg",
 				sku: "in stock",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure optio, labore! Beatae commodi eaque deleniti, repudiandae itaque sint esse dolor tempora, iste eligendi harum, recusandae ratione aut assumenda animi corporis.",
 				composition: "80% Combed Cotton, 17% Polyamide, 3% Elastane"
@@ -30,7 +30,7 @@ angular.module('plentysocksApp').controller('ProductsCtrl', ['$scope',
 			{
 				id: 4,
 				name: "Product Name 4",
-				imgUrl: "../images/sock.jpg",
+				imgUrl: "../../images/sock.jpg",
 				sku: "in stock",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure optio, labore! Beatae commodi eaque deleniti, repudiandae itaque sint esse dolor tempora, iste eligendi harum, recusandae ratione aut assumenda animi corporis.",
 				composition: "80% Combed Cotton, 17% Polyamide, 3% Elastane"
