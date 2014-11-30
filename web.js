@@ -1,9 +1,6 @@
 var gzippo = require('gzippo');
 var express = require('express');
 var modRewrite = require('connect-modrewrite');
-var routes = require('./routes');
-var http = require('http');
-var path = require('path');
 
 var app = express();
  
