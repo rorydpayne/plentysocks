@@ -42,7 +42,18 @@
 		width: 80%;
 	}
 	ul {
+		list-style-type: none;
 		li {
+			span.check {
+				display: block;
+				width: 33px;
+				height: 33px;
+				background: url('../images/icons/check-square-o.png');
+				background-size: 100%;
+				float:left;
+				margin-right: 15px;
+				margin-top: -2px;
+			}
 			p {
 				color: #868485;
 				font-size: 2.2em;
@@ -104,6 +115,9 @@
 				&.colOne {
 					text-align: left;
 					padding-left: 15px;
+				}
+				&.bottomRow {
+					background: #E6ECF0;
 				}
 			}
 			span.tick {
