@@ -1,3 +1,64 @@
-<div class="row" id="header-tab" data-ng-controller="HeaderCtrl"> <div class="col-dt-10 col-tb-12 col-dt-offset-1"> <div class="left-btns"> <a data-ng-click="">MY SUBSCRIPTION</a> </div> <div class="right-btns"> <ul> <li> <a data-ng-click="">CURRENCY</a> </li> <li> <a data-ng-click="">LOG IN</a> </li> <!--                 <li>
+<div class="row" id="header-tab" data-ng-controller="HeaderCtrl">
+	<div class="col-dt-10 col-tb-12 col-dt-offset-1">
+		<div class="left-btns">
+			<a data-ng-click="">MY SUBSCRIPTION</a>
+		</div>
+		<div class="right-btns">
+			<ul>
+				<li>
+					<a data-ng-click="">CURRENCY</a>
+				</li>
+				<li>
+					<a data-ng-click="">LOG IN</a>
+				</li>
+				<!--                 <li>
 					<a data-ng-click="">LOG OUT</a>
-				</li> --> </ul> </div> </div> </div> <div class="col-dt-10 col-tb-12 col-dt-offset-1 navbar"> <div class="logo-wrapper"> <a data-ng-href="/"><span class="helper"></span><img src="images/plentysocks_logo.png"></a> </div> <div class="right-btns" ng-show="true"> <ul> <li> <a data-ng-href="/products" data-ng-class="{active: currentPath == '/products'}">PRODUCTS</a> </li> <li> <a data-ng-href="/plans" data-ng-class="{active: currentPath == '/plans'}">PLANS</a> </li> <li> <a data-ng-click="">ABOUT US</a> </li> <li> <a data-ng-click="">HELP</a> </li> </ul> </div> <div class="right-menu-btn"> <a class="burgerButton" data-ng-click="dropdown = !dropdown"><span class="burgerIcon"></span></a> </div> <div class="dropdown" ng-show="dropdown"> <ul> <li class="top" data-ng-class="{selected: currentPath == '/products'}"> <a data-ng-href="/products" data-ng-click="dropdown = !dropdown">PRODUCTS</a> </li> <li data-ng-class="{selected: currentPath == '/plans'}"> <a data-ng-href="/plans" data-ng-click="dropdown = !dropdown">PLANS</a> </li> <li> <a data-ng-href="#" data-ng-click="dropdown = !dropdown">ABOUT US</a> </li> <li> <a data-ng-href="#" data-ng-click="dropdown = !dropdown">HELP</a> </li> </ul> </div> </div>
+				</li> -->
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="col-dt-10 col-tb-12 col-dt-offset-1 navbar">
+	<div class="logo-wrapper">
+		<a data-ng-href="/"><span class="helper"></span><img src="images/plentysocks_logo.png"/></a>
+	</div>
+	<div class="right-btns" ng-show="true">
+		<ul>
+			<li>
+				<a data-ng-href="/products" data-ng-class="{active: currentPath == '/products'}">PRODUCTS</a>
+			</li>
+			<li>
+				<a data-ng-href="/plans" data-ng-class="{active: currentPath == '/plans'}">PLANS</a>
+			</li>
+			<li>
+				<a data-ng-click="">ABOUT US</a>
+			</li>
+			<li>
+				<a data-ng-click="">HELP</a>
+			</li>
+		</ul>
+	</div>
+	<div class="right-menu-btn">
+		<a class="burgerButton" data-ng-click="dropdown = !dropdown"><span class="burgerIcon"></span></a>
+	</div>
+	<div class="dropdown" ng-show="dropdown">
+		<ul>
+			<li class="top" data-ng-class="{selected: currentPath == '/products'}">
+				<a data-ng-href="/products"
+				data-ng-click="dropdown = !dropdown">PRODUCTS</a>
+			</li>
+			<li data-ng-class="{selected: currentPath == '/plans'}">
+				<a data-ng-href="/plans"
+				data-ng-click="dropdown = !dropdown">PLANS</a>
+			</li>
+			<li>
+				<a data-ng-href="#"
+				data-ng-click="dropdown = !dropdown">ABOUT US</a>
+			</li>
+			<li>
+				<a data-ng-href="#"
+				data-ng-click="dropdown = !dropdown">HELP</a>
+			</li>
+		</ul>
+	</div>
+</div>
