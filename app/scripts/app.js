@@ -2,6 +2,8 @@
 
 angular
   .module('plentysocksApp', [
+    'plentysocksApp.controllers',
+    'plentysocksApp.directives',
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -21,7 +23,7 @@ angular
         controller: 'ProductsCtrl'
       })
       .when('/plans', {
-        templateUrl: 'views/plans.html',
+        templateUrl: 'views/plans/plans.html',
         controller: 'PlansCtrl'
       })
       .otherwise({
@@ -35,4 +37,11 @@ angular
       $rootScope.$on("$routeChangeStart", function(event, next, current) {
         $rootScope.currentPath = $location.path();
       });
+
+      $rootScope.app = {
+
+      };
     }]);
+
+var controllersModule = angular.module('plentysocksApp.controllers', []);
+var directivesModule = angular.module('plentysocksApp.directives', []);

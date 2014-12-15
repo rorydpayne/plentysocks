@@ -1,7 +1,7 @@
 'use strict';
 
 
-angular.module('plentysocksApp').controller('HeaderCtrl', ['$scope',
+controllersModule.controller('HeaderCtrl', ['$scope',
 	function($scope) {
 		$scope.variable = '';
 	}]);

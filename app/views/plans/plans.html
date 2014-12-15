@@ -1,0 +1,38 @@
+<div class="row" id="plans">
+	<div class="col-dt-12 panelOne">
+		<div class="content">
+			<div class="row">
+				<div class="col-dt-5 col-dt-offset-2 col-tb-8 col-tb-offset-2 col-mb-12">
+					<h2>No more sock shopping stress</h2>
+					<h4>Socks regularly delivered to your door</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-dt-12 panelTwo">
+		<div class="col-dt-12 heading">
+			<h3>BENEFITS OF OUR SUBSCRIPTION</h3>
+		</div>
+		<div class="img-wrapper col-dt-4 col-dt-offset-2 col-tb-3 col-mb-10 col-mb-offset-1">
+			<img data-ng-src="../images/plans_price_circle.png">
+		</div>
+		<div class="col-dt-4 col-tb-9 col-mb-12">
+			<ul>
+				<li><span class="check"></span><p>Free shipping worldwide</p></li>
+				<li><span class="check"></span><p>No more sock sorting</p></li>
+				<li><span class="check"></span><p>Socks delivered regularly</p></li>
+				<li><span class="check"></span><p>Available as a gift</p></li>
+				<li><span class="check"></span><p>100% cotton socks</p></li>
+				<li><span class="check"></span><p>No more sock shopping stress</p></li>
+				<li><span class="check"></span><p>You only need to click once to extend your subscription</p></li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-dt-12 panelThree">
+		<div class="col-dt-12 heading">
+			<h3>Build your own plan from £79</h3>
+		</div>
+		<div data-ng-include="'/views/plans/plans_table.html'" ng-hide="app.isMobile || app.isTablet"></div>
+		<!--<div data-ng-include="'/views/plans/plans_table.html'" ng-show="app.isMobile"></div>-->
+	</div>
+</div>

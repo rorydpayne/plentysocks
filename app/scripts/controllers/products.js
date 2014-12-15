@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('plentysocksApp').controller('ProductsCtrl', ['$scope',
+controllersModule.controller('ProductsCtrl', ['$scope',
 	function($scope) {
 		$scope.products = [
 			{

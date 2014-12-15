@@ -1,5 +1,5 @@
 'use strict'
 
-angular.module('plentysocksApp').controller('PlansCtrl', [function() {
+controllersModule.controller('PlansCtrl', ['$rootScope', function($rootScope) {
 
 }]);

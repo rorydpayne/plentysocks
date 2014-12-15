@@ -1,5 +1,5 @@
 'use strict'
 
-angular.module('plentysocksApp').controller('HomeCtrl', [function() {
+controllersModule.controller('HomeCtrl', [function() {
 
 }]);
