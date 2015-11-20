@@ -25,16 +25,16 @@
 	<div class="right-btns" ng-show="true">
 		<ul>
 			<li>
-				<a data-ng-href="/products" data-ng-class="{active: currentPath == '/products'}">PRODUCTS</a>
+				<a data-ng-href="/" data-ng-class="{active: currentPath == '/'}">HOME</a>
 			</li>
 			<li>
-				<a data-ng-href="/plans" data-ng-class="{active: currentPath == '/plans'}">PLANS</a>
+				<a data-ng-href="/get-started" data-ng-class="{active: currentPath == '/get-started'}">GET STARTED</a>
+			</li>
+			<li>
+				<a data-ng-href="/plans" data-ng-class="{active: currentPath == '/plans'}">HOW IT WORKS</a>
 			</li>
 			<li>
 				<a data-ng-click="">ABOUT US</a>
-			</li>
-			<li>
-				<a data-ng-click="">HELP</a>
 			</li>
 		</ul>
 	</div>
@@ -43,21 +43,21 @@
 	</div>
 	<div class="dropdown" ng-show="dropdown">
 		<ul>
-			<li class="top" data-ng-class="{selected: currentPath == '/products'}">
-				<a data-ng-href="/products"
-				data-ng-click="dropdown = !dropdown">PRODUCTS</a>
+			<li class="top" data-ng-class="{selected: currentPath == '/'}">
+				<a data-ng-href="/"
+				data-ng-click="dropdown = !dropdown">HOME</a>
+			</li>
+			<li data-ng-class="{selected: currentPath == '/get-started'}">
+				<a data-ng-href="/get-started"
+				data-ng-click="dropdown = !dropdown">GET STARTED</a>
 			</li>
 			<li data-ng-class="{selected: currentPath == '/plans'}">
 				<a data-ng-href="/plans"
-				data-ng-click="dropdown = !dropdown">PLANS</a>
+				data-ng-click="dropdown = !dropdown">HOW IT WORKS</a>
 			</li>
 			<li>
 				<a data-ng-href="#"
 				data-ng-click="dropdown = !dropdown">ABOUT US</a>
-			</li>
-			<li>
-				<a data-ng-href="#"
-				data-ng-click="dropdown = !dropdown">HELP</a>
 			</li>
 		</ul>
 	</div>

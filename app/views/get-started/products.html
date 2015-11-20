@@ -1,0 +1,40 @@
+<div class="row" id="products">
+	<div class="col-dt-10 col-dt-offset-1 col-tb-12 products-panel">
+		<h3>SELECT SOCKS</h3>
+		<p>Choose 5 sock packages to make up your perfect sock drawer</p>
+		<p>Remaining: 2</p>
+		<div class="row content">
+			<div class="product" data-ng-repeat="product in products" >
+				<div class="product-wrapper">
+					<div class="col-dt-3 basic" data-ng-hide="product.detailedView">
+						<a ng-click="showDetails(product)">
+ 							<img src="{{product.imgUrl}}">
+							<h5>{{product.name}}</h5>
+						</a>
+					</div>
+					<div class="col-dt-12 details" data-ng-show="product.detailedView">
+						<div class="content-wrapper">
+							<a class="close" ng-click="closeDialog(product)">show less</a>
+							<div class="col-dt-3 col-tb-12 pic"><img src="{{product.imgUrl}}" alt=""></div>
+							<div class="col-dt-9 col-tb-12 text">
+								<h4>{{product.name}}</h4>
+								<p>{{product.sku}}</p>
+								<h6>DETAILS</h6>
+								<p>{{product.details}}</p>
+								<h6>COMPOSITION</h6>
+								<p>{{product.composition}}</p>
+								<h6 class="quantity">QUANTITY</h6>
+								<span class="quantity">{{product.quantity}}</span>
+								<a class="add" ng-click="addQuantity()"></a>
+								<a class="sub" ng-click="subQuantity()"></a>
+								<a class="btn cart" ng-click="">ADD TO SELECTION</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- -->

@@ -18,9 +18,9 @@ angular
         templateUrl: 'views/home.html',
         controller: 'HomeCtrl'
       })
-      .when('/products', {
-        templateUrl: 'views/products.html',
-        controller: 'ProductsCtrl'
+      .when('/get-started', {
+        templateUrl: 'views/get-started/index.html',
+        controller: 'GetStartedCtrl'
       })
       .when('/plans', {
         templateUrl: 'views/plans/plans.html',

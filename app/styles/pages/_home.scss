@@ -38,6 +38,7 @@ $rootContext: 62.5;
             margin-bottom: 0.5em;
         }
         a.btn.subscribe {
+            color: #FFFFFF;
             display: block;
             margin: 0 auto;
             margin-top: 7%;
@@ -106,6 +107,9 @@ $rootContext: 62.5;
             p {
                 padding-left: 15px;
                 padding-right: 15px;
+                span {
+                    font-decoration: italic;
+                }
             }
             .step {
                 padding: 0;
